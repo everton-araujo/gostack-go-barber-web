@@ -61,11 +61,12 @@ export const Toast = styled.div<ToastProps>`
     button {
         position: absolute;
         right: 16px;
-        top: 19px;
+        top: 50%;
         opacity: 0.6;
         border: 0;
         background: transparent;
         color: inherit;
+        transform: translateY(-50%);
     }
 
     ${(props) => !props.hasDescription && css`
