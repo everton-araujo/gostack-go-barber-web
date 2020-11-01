@@ -58,7 +58,10 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/react-hooks": "^3.4.2",
     "@types/react-router-dom": "^5.1.6",
-    "@types/yup": "^0.29.9"
+    "@types/yup": "^0.29.9",
+    "axios-mock-adapter": "^1.19.0",
+    "react-test-renderer": "^17.0.1"
   }
 }
