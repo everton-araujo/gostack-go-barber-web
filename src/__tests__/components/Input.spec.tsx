@@ -2,7 +2,6 @@ import React from 'react';
 import { fireEvent, render, waitFor } from '@testing-library/react';
 
 import Input from '../../components/Input';
-import { useField } from '@unform/core';
 
 jest.mock('@unform/core', () => {
     return {
